@@ -51,6 +51,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color:white;
+    font-weight:900;   
+}
+
 ol {
     margin-left: 25px;
     padding-right: 70%;
@@ -64,4 +69,6 @@ li:hover {
     background-image:url(https://ak.picdn.net/shutterstock/videos/1010561783/thumb/1.jpg);
     background-repeat:no-repeat;
     padding: 5px;
+    color:white;
+    font-weight:900;
 }
