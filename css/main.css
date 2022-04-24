@@ -64,5 +64,6 @@ li:hover{
     background-image:url(https://ak.picdn.net/shutterstock/videos/1010561783/thumb/1.jpg);
     background-repeat:no-repeat;
     padding: 5px;
-    color: rgb(0, 0, 156);
+    color: white;
+    font-weight:900;
 }
