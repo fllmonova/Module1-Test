@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 45px;
+    color: blue;
+    padding: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight: 900;
+    text-shadow: 2px 2px 1px cornflowerblue,
+    -2px -2px 1px wheat;
+    letter-spacing: 4px;
+    background-image: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1627168254_26-kartinkin-com-p-sinii-perlamutr-fon-krasivo-28.jpg);
+    background-size: contain;
+}
+
+
+p {
+    margin: 20px;
+    padding: 10px;
+    background-color:blue;
+    color:white;
+}
+
+p:hover{
+    background-color:pink;
+    color:blue;
+
+}
+
+ul{
+    list-style: square;
+    margin-left: 15px;
+    padding-right: 70%;
+}
+
+hr {
+    border: 0;
+    color: blue;
+    background-color:blue;
+    height:4px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol {
+    margin-left: 25px;
+    padding-right: 70%;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+li:hover{
+    background-image:url(https://ak.picdn.net/shutterstock/videos/1010561783/thumb/1.jpg);
+    background-repeat:no-repeat;
+    padding: 5px;
+    color: rgb(0, 0, 156);
+}
