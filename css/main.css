@@ -60,7 +60,8 @@ li {
     padding-bottom: 5px;
 }
 
-li:hover{
+ul li:hover,
+ol li:hover {
     background-image:url(https://ak.picdn.net/shutterstock/videos/1010561783/thumb/1.jpg);
     background-repeat:no-repeat;
     padding: 5px;
