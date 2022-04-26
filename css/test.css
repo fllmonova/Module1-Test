@@ -3,6 +3,32 @@ body {
     line-height: 1.5;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+ul>li {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:rebeccapurple;
+    font-weight: 700;
+}
+
+h1,h2,h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+footer {
+    font-size: 0.8125rem;
+}
+
 .header {
     display: flex;
     border-bottom: 1px solid #000;
@@ -16,17 +42,6 @@ body {
     font-weight: 700;
     color: lightgreen;
     background-color: rebeccapurple;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-}
-
-ul>li {
-    margin-right: 10px;
 }
 
 .box {
@@ -43,19 +58,4 @@ ul>li {
 
 .post {
     padding-bottom: 20px;
-}
-
-footer {
-    font-size: 0.8125rem;
-}
-
-a {
-    text-decoration: none;
-    color:rebeccapurple;
-    font-weight: 700;
-}
-
-h1,h2,h3 {
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
 }
