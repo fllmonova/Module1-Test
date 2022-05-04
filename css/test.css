@@ -4,26 +4,26 @@ body {
 }
 
 .header {
+    font-size: 20px;
     display: flex;
-    border-bottom: 1px solid black;
-    padding: 10px 20px;
-    font-size: 1.25rem;
     align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
 }
 
 a {
-    text-decoration: none;
-    color:rebeccapurple;
     font-weight: 700;
+    color:rebeccapurple;
+    text-decoration: none;
 }
 
 .logo {
-    margin-right: 50px;
-    text-decoration: none;
     font-weight: 700;
     color: lightgreen;
     background-color: rebeccapurple;
+    text-decoration: none;
     padding: 5px 15px;
+    margin-right: 50px;
 }
 
 ul {
@@ -39,9 +39,9 @@ ul>li {
 
 .box {
     display: flex;
-    margin-bottom: 30px;
     gap: 20px;
     border-bottom: 1px solid black;
+    margin-bottom: 30px;
 }
 
 h1,h2,h3 {
@@ -50,13 +50,13 @@ h1,h2,h3 {
 }
 
 .aside {
-    padding: 10px 20px;
     background-color:lavender;
+    padding: 10px 20px;
 }
 
 section {
-    padding: 5px 20px;
     background-color:lavender;
+    padding: 5px 20px;
     margin-bottom: 20px;
 }
 
